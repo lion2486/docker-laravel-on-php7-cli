@@ -1,4 +1,5 @@
 FROM php:7.0-cli
+MAINTAINER Masashi Shinbara <shin1x1@gmail.com>
 
 RUN apt-get update && apt-get install -y \
       libicu-dev \
